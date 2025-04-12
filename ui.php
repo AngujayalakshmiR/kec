@@ -78,7 +78,7 @@
       resultDiv.innerHTML = "<p class='loading'>⏳ Generating your plan...</p>";
 
       try {
-        const response = await fetch("https://9d61-34-66-32-250.ngrok-free.app/get_plan", {
+        const response = await fetch("https://5756-35-245-253-32.ngrok-free.app/get_plan", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ text: input })
